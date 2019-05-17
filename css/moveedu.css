@@ -1,0 +1,215 @@
+/* Color Theme */
+.primary-bg {
+  background-color: #02acc4;
+  color: #fff;
+}
+
+.primary-color {
+  color: #02acc4;
+}
+/* end Color Theme */
+
+.logo {
+  background-image: url('../img/logos/logo-moveedu.png');
+  width: 175px;
+  height: 60px;
+}
+
+.banner-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  margin-top: 30px;
+}
+
+.banner-subtitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+}
+
+@media (max-width: 991px) {
+  .banner {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-title {
+    font-size: 88px;
+    margin-top: 50px;
+  }
+
+  .banner-subtitle {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 1199px) {
+  .banner-certificates {
+    position: relative;
+    top: -50px;
+  }
+}
+.title-sucess{
+  font-style: italic;
+  font-weight: 700;
+}
+.subtitle-sucess{
+  font-weight: 100;
+}
+.top{
+  margin-top: 50px;
+}
+.main-content {
+  padding: 5% 0;
+}
+
+.main-content .content-item {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  padding: 0 25px;
+  text-align: center;
+}
+
+.main-content .content-item strong {
+  font-style: italic;
+}
+
+.main-content .content-item img {
+  width: 150px;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card-rounded {
+  border-radius: 10px;
+}
+
+.card-presentation {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  line-height: 1.2;
+  border-radius: 4px;
+}
+
+.franchises {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.franchises .card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.franchises .card img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.franchises .card .description {
+  color: #fff;
+}
+
+.franchises .card .description strong {
+  font-style: italic;
+}
+
+.franchises .card .description p {
+  margin: 0;
+}
+
+.franchises .card .description .learn-more {
+  padding: 0;
+  font-size: 12.5px;
+  text-decoration: underline;
+  float: right;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.franchises .card:hover {
+  background-color: #02acc4;
+  color: #fff;
+}
+
+.franchises .card .img-overlay {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.franchises .card:hover .img-overlay {
+  opacity: 0;
+  z-index: -1;
+}
+
+.franchises .card {
+  width: 100%;
+  margin-bottom: 20px;
+  min-height: 150px;
+}
+
+.franchises .card img {
+  display: block;
+  margin: auto;
+  max-height: 115px;
+}
+
+.content-details {
+  padding: 40px 0 0;
+}
+
+.content-details .detail {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.content-details .title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 34px;
+}
+
+.content-details small {
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  padding-left: 35px;
+  font-size: 13px;
+}
+
+@media (min-width: 1199px) {
+  .banner {
+    background-image: url('../img/move-edu/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-content {
+    padding: 5% 0;
+    background: url('../img/move-edu/bg-pattern-moveedu.jpg') no-repeat;
+    background-size: 125%;
+    background-position: center;
+  }
+
+  .content-details {
+    background-image: url('../img/move-edu/bruno-maisa.png'); 
+    background-repeat: no-repeat;
+    background-position: right 10px;
+  }
+
+  .card-presentation {
+    font-size: 26px;
+  }
+}
