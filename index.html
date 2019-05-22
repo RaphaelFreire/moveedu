@@ -9,357 +9,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/moveedu.css">
-    
     <link rel="icon" type="image/png" href="img/moveedu-favicon.png" />
 </head>
 
 <body>
-<header class="header fixed-top navbar-expand-lg"">
-    <div class="container">
-        <nav class="navbar navbar-light">
-            <a class="navbar-brand" href="#">
-                <img class="logo" src="img/logos/logo-moveedu.svg" alt="logo Moveedu"></img>
-            </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collaps" id="nav">
-                <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="javascript:scroll('#aboutUsSection')">Quem somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:scroll('#franchiseSection')">Franquias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://blog.moveedu.com.br">Notícias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/moveedu/" target="_blank" title="Instagram">
-                                <i class="fa fa-instagram icon-social bg-primary text-white"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.facebook.com/moveeduinovacaoeducacao" target="_blank" title="Facebook">
-                                <i class="fa fa-facebook icon-social bg-primary text-white"></i>
-                            </a> 
-                        </li>            
-                </ul>
-            </div>
-        </nav>
-    </div>
-</header>
-<!-- 
-
-<section class="banner primary-bg pb-3">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-lg-7 color-white">
-                <div class="text-uppercase banner-left">
-                    <h1 class="banner-title">
-                        Invista em Educação
-                    </h1>
-                    <h2 class="banner-subtitle">
-                        Transforme o seu futuro e
-                        <br />o de milhares de pessoas
-                    </h2>
-                </div>
-                <div class="banner-certificates float-lg-right">
-                    <div class="row align-items-center" style="margin-top: 30px;">
-                        <div class="col-3 col-sm">
-                            <img src="/img/logos/selo-gptw.png" class="img-fluid logo-abf" alt="Great Place To Work 2018">
-                        </div>                        
-                        <div class="col-3 col-sm" style="text-align:center">
-                            <img src="/img/logos/abf.png" class="img-fluid logo-abf" alt="ABF - Excelência em Franchising" style="width:65%">
-                        </div>
-                        <div class="col-3 col-sm">
-                            <img src="/img/logos/pegn.png" class="img-fluid logo-pegn" alt="Melhores Franquias o Brasil 2018" style="width:65%">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-5">
-                <div class="card card-form font-open-sans">
-                    <h2 class="form-title primary-color" style="font-size: 23px;">FAÇA PARTE DO MAIOR GRUPO DE FRANQUIAS DE EDUCAÇÃO PROFISSIONALIZANTE DO MUNDO</h2>
-                    <hr class="divider">
-                    <form id="form" name="myForm">
-                        <input id="school" type="hidden" name="school" value="MoveEdu">
-
-                        <div class="form-group">
-                            <label for="name">Nome</label>
-                            <input type="text" class="form-control" id="name" data-placement="left" required name="name" aria-describedby="name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">E-mail</label>
-                            <input type="email" class="form-control" id="email" data-placement="left" required name="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Telefone</label>
-                            <input type="tel" class="form-control" id="phone" data-placement="left" required name="phone">
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-4 pr-1">
-                                <label for="state">UF</label>
-                                <select type="tel" class="form-control" id="state" data-placement="top" required name="state"></select>
-                            </div>
-                            <div class="form-group col-8 pl-1">
-                                <label for="city">Escolha uma cidade</label>
-                                <select class="form-control" id="city" data-placement="top" required name="city"></select>
-                            </div>
-                        </div>
-                        <div class="my-3">                            
-                            <button id="franchise-btn" type="submit" onclick="event.preventDefault();" class="btn primary-bg btn-block">Interesse em franquia</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section id="aboutUsSection" class="main-content">
-    <div class="container">
-        <div class="col-lg-7">
-            <div class="row">
-                <div class="col-md-6 content-item primary-color">
-                    <img src="/img/move-edu/mais-de-90.png" alt="+ de 90% dos franqueados abririam uma nova unidade ou indicariam franquias da MoveEdu">
-                    <p>
-                        dos franqueados <strong>abririam uma nova unidade</strong> ou indicariam franquias da MoveEdu
-                    </p>
-                </div>
-                <div class="col-md-6 content-item primary-color">
-                    <img src="/img/move-edu/mais-de-30.png" alt="+ de 30 anos de excelência em Franchising">
-                    <p>
-                        anos de
-                        <strong>excelência em Franchising</strong> e Educação
-                    </p>
-                </div>
-
-                <div class="col-md-6 content-item primary-color">
-                    <img src="/img/move-edu/1200.png" alt="1200 franqueados">
-                    <p>
-                        <strong>franqueados</strong>
-                    </p>
-                </div>
-
-                <div class="col-md-6 content-item primary-color">
-                    <img src="/img/move-edu/500-mil.png" alt="500 mil alunos formados por ano">
-                    <p>
-                        <strong>alunos formados</strong> por ano
-                    </p>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="franchiseSection">
-    <div class="container">
-        <div class="col-lg-7">
-            <div class="card card-presentation card-rounded primary-bg color-white text-uppercase">
-                Faça parte do maior grupo de franquias de educação profissionalizante do mundo
-            </div>
-
-            <div class="row franchises">
-                <div class="col-md-6">
-                    <div class="card card-rounded">
-                        <a class="full-link" href="./prepara"> </a>
-                        <div class="img-overlay">
-                            <img class="img-fluid" src="/img/logos/prepara-cursos.png" alt="Prepara Cursos">
-                        </div>
-                        <div class="description">
-                            <strong>
-                                Prepara
-                            </strong>
-                            <p>
-                                Rede premiada por 4 anos como a melhor franquia de cursos do Brasil.
-                            </p>
-                            <span class="btn btn-link learn-more">Saiba mais</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 d-flex align-content-stretch">
-                    <div class="card card-rounded">
-                        <a class="full-link" href="./microlins"> </a>
-                        <div class="img-overlay">
-                            <img class="img-fluid" src="/img/logos/microlins.png" alt="Microlins">
-                        </div>
-                        <div class="description">
-                            <strong>
-                                Microlins
-                            </strong>
-                            <p>
-                                Marca gigante que profissionaliza milhões de jovens no Brasil há mais de 25 anos.
-                            </p>
-                            <span class="btn btn-link learn-more">Saiba mais</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 d-flex align-content-stretch">
-                    <div class="card card-rounded">
-                        <a class="full-link" href="./sos"> </a>
-                        <div class="img-overlay">
-                            <img class="img-fluid" src="/img/logos/sos-tecnologia-vertical.png" alt="SOS - tecnologia educação">
-                        </div>
-                        <div class="description">
-                            <strong>
-                                SOS
-                            </strong>
-                            <p>
-                                Rede pioneira de cursos de tecnologia do Brasil.
-                            </p>
-                            <span class="btn btn-link learn-more">Saiba mais</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 d-flex align-content-stretch">
-                    <div class="card card-rounded">
-                        <a class="full-link" href="./people"> </a>
-                        <div class="img-overlay">
-                            <img class="img-fluid" src="/img/logos/people.png" alt="People - Tech and English">
-                        </div>
-                        <div class="description">
-                            <strong>
-                                People
-                            </strong>
-                            <p>
-                                Maior escola de programação e robótica para as novas gerações do Brasil.
-                            </p>
-                            <span class="btn btn-link learn-more">Saiba mais</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 d-flex align-content-stretch">
-                    <div class="card card-rounded">
-                        <a class="full-link" href="./ensina-mais"> </a>
-                        <div class="img-overlay">
-                            <img class="img-fluid" src="/img/logos/ensina-mais.png" alt="Ensina mais">
-                        </div>
-                        <div class="description">
-                            <strong>
-                                Ensina Mais
-                            </strong>
-                            <p>
-                                Franquia de apoio escolar licenciada Turma da Mônica com metodologia exclusiva de ensino individualizado.
-                            </p>
-                            <span class="btn btn-link learn-more">Saiba mais</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 d-flex align-content-stretch">
-                    <div class="card card-rounded">
-                        <a class="full-link" href="./pingus-english"> </a>
-                        <div class="img-overlay">
-                            <img class="img-fluid" src="/img/logos/pingus-english.png" alt="Pingu's English">
-                        </div>
-                        <div class="description">
-                            <strong>
-                                Pingu's English
-                            </strong>
-                            <p>
-                                Escola internacional de inglês para crianças a partir de 2 anos.
-                            </p>
-                            <span class="btn btn-link learn-more">Saiba mais</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 d-flex align-content-stretch">
-                    <div class="card card-rounded">
-                        <a class="full-link" href="./english-talk"> </a>
-                        <div class="img-overlay">
-                            <img class="img-fluid" src="/img/logos/englishtalk.png" alt="EnglishTalk">
-                        </div>
-                        <div class="description">
-                            <strong>
-                                English Talk
-                            </strong>
-                            <p>
-                                Primeira franquia de inglês 3.0 do Brasil.
-                            </p>
-                            <span class="btn btn-link learn-more">Saiba mais</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="scrollFollowLimit primary-bg color-white pb-2" style="padding-bottom:0px !important;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-
-                <div class="detail">
-                    <h4 class="title">
-                        Seja franqueado
-                        da maior rede de
-                        escolas de educação profissional do mundo*
-                    </h4>
-                    <p>
-                        A MoveEdu engloba grandes marcas com mais de
-                        30 anos de experiência no setor educacional brasileiro, que acumulam dezenas de premiações das principais entidades do franchising nacional.
-                    </p>
-                    <p>
-                        São mais de 5o selos de excelência em franchising
-                        ABF e mais de 10 chancelas de melhor franquia do
-                        Brasil pelo anuário de franquias da revista PEGN.
-                    </p>
-                    <br /><br />
-                    <small>
-                        *Referente a redes de franquias privadas. Análise do setor de educação profissional
-                        (fonte Banco Mundial) e dos sites das entidades do setor de franchising do mundo.
-                        **Média das notas recebidas entre todas as marcas MoveEdu participantes.
-                    </small>
-
-                </div>
-
-            </div>
-
-            <div class="col-lg-5">
-                <img style="max-width: 100%;bottom: 0px;position: absolute; "src="http://moveedu.com.br/assets/img/move-edu/bruno-maisa.png">
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<footer class="dark-bg color-white">
-    <div class="container">
-        <div class="row">
-            <div class="logo-footer col-md-6 py-3 align-self-center">
-                <img src="/img/logos/logo-moveedu-negative.png" alt="MoveEdu">
-            </div>
-
-            <div class="col-md-6 py-3 text-md-right contact">
-                <span class="text-description text-uppercase">Seja um franqueado</span>
-                <h2 class="phone">
-                    <span>(17)</span> 3214-8699
-                </h2>
-                <a href="mailto:franquias@moveedu.com.br" class="email color-white">
-                    franquias@moveedu.com.br
+<header class="header fixed-top navbar-expand-lg">
+        <div class="container">
+            <nav class="navbar navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="img/logos/logo-moveedu.svg" alt="logo Moveedu"></img>
                 </a>
-            </div>
-        </div>
-    </div>
-</footer> -->
 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link btn btn-outline-primary rounded-lg mr-1" href="javascript:scroll('#aboutUsSection')">Quem somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-outline-primary rounded-lg mr-1" href="javascript:scroll('#franchiseSection')">Franquias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-outline-primary rounded-lg mr-1" href="https://blog.moveedu.com.br">Notícias</a>
+                            </li>            
+                            <li class="nav-item">
+                                    <a class="nav-link" href="https://www.instagram.com/moveedu/" target="_blank" title="Instagram">
+                                        <i class="fa fa-instagram icon-social bg-primary text-white"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.facebook.com/moveeduinovacaoeducacao" target="_blank" title="Facebook">
+                                        <i class="fa fa-facebook icon-social bg-primary text-white"></i>
+                                    </a> 
+                            </li>
+                    </ul>
+                 
+                </div>
+            </nav>
+        </div>    
+</header>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-<script src="js/jquery.js"></script>
-<script src="js/popper.js"></script>
-<script src="js/bootstrap.js"></script>
 </html>
