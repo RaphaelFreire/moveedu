@@ -1,19 +1,19 @@
-/* Color Theme */
-.primary-bg {
+/* .primary-bg {
   background-color: #02acc4;
   color: #fff;
 }
 
 .primary-color {
   color: #02acc4;
-}
-/* end Color Theme */
+} */
 
 .logo {
-  background-image: url('../img/logos/logo-moveedu.png');
-  width: 175px;
-  height: 60px;
+  width: 250px;
+  height: 58px;
 }
+
+
+
 
 .banner-title {
   font-family: 'Raleway', sans-serif;
@@ -212,4 +212,280 @@
   .card-presentation {
     font-size: 26px;
   }
+}
+
+
+
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 80px;
+}
+
+a {
+  color: inherit;
+}
+
+/* Helpers */
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.bg-dark {
+  color: #232323;
+}
+
+.white-bg {
+  background-color: #fff;
+  color: #231f20;
+}
+
+.dark-bg {
+  background-color: #231f20;
+  color: #fff;
+}
+
+.color-white {
+  color: white;
+}
+
+small {
+  font-size: 70%;
+}
+/* end Helpers */
+
+/* Header */
+.header {
+  background-color: #fff;
+}
+
+.header .navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.header .navbar .navbar-brand {
+  padding: 0;
+}
+
+.icon-social {
+  width: 26px;
+  height: 26px;
+  line-height: 26px !important;
+  margin: 0 4px;
+  text-align: center;
+  border-radius: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* end Header */
+
+/* logo */
+/* .logo {
+  width: 175px;
+  height: 60px;
+} */
+/* end logo */
+
+/* Banner */
+.banner {
+  position: relative;
+  padding: 50px 0;
+}
+/* end Banner */
+
+/*  Form */
+.card-form {
+    color: #333;
+    border-radius: 0;
+    margin: auto;
+    z-index: 3;
+}
+
+@media(min-width: 999px) {
+    .card-form {
+        position: fixed;
+        top: 90px;
+    }
+}
+
+.card.card-form {
+  padding: 10px 20px;
+}
+
+.card-form .form-group {
+  margin-bottom: 10px;
+}
+
+.card-form .btn {
+  white-space: normal;
+}
+
+.card-form .form-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.card-form .divider {
+  border-color: #aeaeae;
+}
+
+.card-form label {
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .card-form label {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-form {
+    max-width: 460px;
+  }
+
+  .card-form .form-title {
+    font-size: 30px;
+  }
+}
+
+.card-form .btn {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tooltip .tooltip-inner {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #ff2f2f;
+  max-width: 200px;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+/* end Form */
+
+/* Footer */
+footer .contact {
+  line-height: 1.2;
+}
+
+footer .text-description {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+
+footer .phone {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+footer .phone span {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+footer .email {
+  font-size: 15px;
+  font-weight: light;
+}
+
+footer .email:hover {
+  color: #fff;
+}
+
+/* end Footer */
+
+/* Modal */
+
+#response-modal .modal-header {
+  background: #02acc4;
+  color: #fff;
+}
+
+#response-modal .Sucesso p {
+  color: green;
+}
+
+#response-modal .Erro p {
+  color: red;
+}
+
+/* end Modal */
+
+/*  fonts */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif !important;
+}
+/*  end fonts */
+
+.circles-list .circle-item {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+}
+
+.list-check li {
+  margin-bottom: 10px;
+  list-style: none;
+  position: relative;
+}
+
+.list-check li:before {
+  content: "\f058";
+  font-family: FontAwesome;
+  font-size: 15px;
+  left: -30px;
+  top: 2px;
+  position: absolute;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    background-image: none !important;
+  }
+
+  .banner-footer {
+    display: none;
+  }
+
+  footer {
+    border-top: 1px solid #cecece;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .header .navbar .btn {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.full-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
