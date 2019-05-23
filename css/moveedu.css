@@ -1,302 +1,115 @@
+body {
+	font-family: "Raleway", sans-serif;
+}
+
 /* Header */
 .logo {
-  width: 250px;
+	width: 250px;
 }
 
-@media(max-width:320px){
-  .logo {
-    width: 200px;
-  }
+@media (max-width: 320px) {
+	.logo {
+		width: 200px;
+	}
 }
 
-/* .header .navbar {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.icone-social {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border-radius: 100%;
+	vertical-align: middle;
+	margin: 6px;
+}
+
+.banner-principal {
+	background-color: #02acc4;
+}
+
+.chamada-principal-titulo {
+	margin-top: 10%;
+	font-weight: 700;
+	font-size: 5rem;
   text-transform: uppercase;
-} */
-
-.header .navbar .navbar-brand {
-  padding: 0;
-}
-
-.icon-social {
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  line-height: 26px !important;
-  text-align: center;
-  border-radius: 100%;
-  vertical-align: middle;
- 
-}
-
-
-/* .header .navbar .nav-link {
-  padding: 5px 25px;
-  border: 1px solid black;
-}
-
-.header .navbar.navbar-light .nav-link {
-  color: #333;
-} */
-
-/* .logo {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  text-indent: 100%;
-  overflow: hidden;
-  margin-bottom: 0;
-} */
-
-
-
-.banner-title {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 42px;
-  margin-top: 30px;
-}
-
-.banner-subtitle {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 32px;
-}
-
-@media (max-width: 991px) {
-  .banner {
-    padding-top: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .banner-title {
-    font-size: 88px;
-    margin-top: 50px;
-  }
-
-  .banner-subtitle {
-    font-size: 52px;
-  }
-}
-
-@media (min-width: 1199px) {
-  .banner-certificates {
-    position: relative;
-    top: -50px;
-  }
-}
-.title-sucess{
-  font-style: italic;
-  font-weight: 700;
-}
-.subtitle-sucess{
-  font-weight: 100;
-}
-.top{
-  margin-top: 50px;
-}
-.main-content {
-  padding: 5% 0;
-}
-
-.main-content .content-item {
-  font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-  padding: 0 25px;
-  text-align: center;
-}
-
-.main-content .content-item strong {
-  font-style: italic;
-}
-
-.main-content .content-item img {
-  width: 150px;
-  display: block;
-  margin: 0 auto 15px;
-}
-
-.card {
-  padding: 20px;
-}
-
-.card-rounded {
-  border-radius: 10px;
-}
-
-.card-presentation {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
-  font-size: 22px;
-  line-height: 1.2;
-  border-radius: 4px;
-}
-
-.franchises {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.franchises .card {
-  position: relative;
-  overflow: hidden;
-  transition: all 0.4s ease-in-out;
-}
-
-.franchises .card img {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-}
-
-.franchises .card .description {
   color: #fff;
 }
 
-.franchises .card .description strong {
-  font-style: italic;
-}
-
-.franchises .card .description p {
-  margin: 0;
-}
-
-.franchises .card .description .learn-more {
-  padding: 0;
-  font-size: 12.5px;
-  text-decoration: underline;
-  float: right;
-  color: #fff;
-  margin-top: 15px;
-}
-
-.franchises .card:hover {
-  background-color: #02acc4;
+.chamada-principal-paragrafo {
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: uppercase;
   color: #fff;
 }
 
-.franchises .card .img-overlay {
-  background-color: #fff;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+@media (min-width: 768px) {
+	.banner-principal {
+		background-image: url("../img/move-edu/banner.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+	}
+
+	.main-content {
+		padding: 5% 0;
+		background: url("../img/move-edu/bg-pattern-moveedu.jpg") no-repeat;
+		background-size: 125%;
+		background-position: center;
+	}
+
+	.content-details {
+		background-image: url("../img/move-edu/bruno-maisa.png");
+		background-repeat: no-repeat;
+		background-position: right 10px;
+	}
+
+	.card-presentation {
+		font-size: 26px;
+	}
 }
-
-.franchises .card:hover .img-overlay {
-  opacity: 0;
-  z-index: -1;
-}
-
-.franchises .card {
-  width: 100%;
-  margin-bottom: 20px;
-  min-height: 150px;
-}
-
-.franchises .card img {
-  display: block;
-  margin: auto;
-  max-height: 115px;
-}
-
-.content-details {
-  padding: 40px 0 0;
-}
-
-.content-details .detail {
-  font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-  margin-top: 25px;
-}
-
-.content-details .title {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 34px;
-}
-
-.content-details small {
-  font-family: 'Raleway', sans-serif;
-  display: block;
-  padding-left: 35px;
-  font-size: 13px;
-}
-
-@media (min-width: 1199px) {
-  .banner {
-    background-image: url('../img/move-edu/banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .main-content {
-    padding: 5% 0;
-    background: url('../img/move-edu/bg-pattern-moveedu.jpg') no-repeat;
-    background-size: 125%;
-    background-position: center;
-  }
-
-  .content-details {
-    background-image: url('../img/move-edu/bruno-maisa.png'); 
-    background-repeat: no-repeat;
-    background-position: right 10px;
-  }
-
-  .card-presentation {
-    font-size: 26px;
-  }
-}
-
-
-
-
 
 body {
-  font-family: "Open Sans", sans-serif;
-  padding-top: 80px;
+	font-family: "Open Sans", sans-serif;
+	padding-top: 80px;
 }
 
-a {
+/* a {
   color: inherit;
-}
+} */
 
 /* Helpers */
 .btn {
-  border-radius: 0;
-  text-transform: uppercase;
+	border-radius: 0;
+	text-transform: uppercase;
 }
 
 .form-control {
-  border-radius: 0;
+	border-radius: 0;
 }
 
 .bg-dark {
-  color: #232323;
+	color: #232323;
 }
 
 .white-bg {
-  background-color: #fff;
-  color: #231f20;
+	background-color: #fff;
+	color: #231f20;
 }
 
 .dark-bg {
-  background-color: #231f20;
-  color: #fff;
+	background-color: #231f20;
+	color: #fff;
 }
 
 .color-white {
-  color: white;
+	color: white;
 }
 
 small {
-  font-size: 70%;
+	font-size: 70%;
 }
 /* end Helpers */
-
-
 
 /* end Header */
 
@@ -309,118 +122,118 @@ small {
 
 /* Banner */
 .banner {
-  position: relative;
-  padding: 50px 0;
+	position: relative;
+	padding: 50px 0;
 }
 /* end Banner */
 
 /*  Form */
 .card-form {
-    color: #333;
-    border-radius: 0;
-    margin: auto;
-    z-index: 3;
+	color: #333;
+	border-radius: 0;
+	margin: auto;
+	z-index: 3;
 }
 
-@media(min-width: 999px) {
-    .card-form {
-        position: fixed;
-        top: 90px;
-    }
+@media (min-width: 999px) {
+	.card-form {
+		position: fixed;
+		top: 90px;
+	}
 }
 
 .card.card-form {
-  padding: 10px 20px;
+	padding: 10px 20px;
 }
 
 .card-form .form-group {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .card-form .btn {
-  white-space: normal;
+	white-space: normal;
 }
 
 .card-form .form-title {
-  text-align: center;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.2;
-  margin-bottom: 0;
+	text-align: center;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.2;
+	margin-bottom: 0;
 }
 
 .card-form .divider {
-  border-color: #aeaeae;
+	border-color: #aeaeae;
 }
 
 .card-form label {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 @media (max-width: 767px) {
-  .card-form label {
-    font-size: 14px;
-  }
+	.card-form label {
+		font-size: 14px;
+	}
 }
 
 @media (min-width: 1200px) {
-  .card-form {
-    max-width: 460px;
-  }
+	.card-form {
+		max-width: 460px;
+	}
 
-  .card-form .form-title {
-    font-size: 30px;
-  }
+	.card-form .form-title {
+		font-size: 30px;
+	}
 }
 
 .card-form .btn {
-  font-weight: bold;
-  font-size: 20px;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .tooltip .tooltip-inner {
-  background-color: #fff;
-  border: 1px solid #000;
-  color: #ff2f2f;
-  max-width: 200px;
-  padding: 3px 8px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.4;
+	background-color: #fff;
+	border: 1px solid #000;
+	color: #ff2f2f;
+	max-width: 200px;
+	padding: 3px 8px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.4;
 }
 /* end Form */
 
 /* Footer */
 footer .contact {
-  line-height: 1.2;
+	line-height: 1.2;
 }
 
 footer .text-description {
-  font-family: "Raleway", sans-serif;
-  font-size: 12px;
+	font-family: "Raleway", sans-serif;
+	font-size: 12px;
 }
 
 footer .phone {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 5px;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 5px;
 }
 
 footer .phone span {
-  font-size: 22px;
-  font-weight: normal;
+	font-size: 22px;
+	font-weight: normal;
 }
 
 footer .email {
-  font-size: 15px;
-  font-weight: light;
+	font-size: 15px;
+	font-weight: light;
 }
 
 footer .email:hover {
-  color: #fff;
+	color: #fff;
 }
 
 /* end Footer */
@@ -428,76 +241,76 @@ footer .email:hover {
 /* Modal */
 
 #response-modal .modal-header {
-  background: #02acc4;
-  color: #fff;
+	background: #02acc4;
+	color: #fff;
 }
 
 #response-modal .Sucesso p {
-  color: green;
+	color: green;
 }
 
 #response-modal .Erro p {
-  color: red;
+	color: red;
 }
 
 /* end Modal */
 
 /*  fonts */
 .font-open-sans {
-  font-family: "Open Sans", sans-serif !important;
+	font-family: "Open Sans", sans-serif !important;
 }
 
 .font-raleway {
-  font-family: "Raleway", sans-serif !important;
+	font-family: "Raleway", sans-serif !important;
 }
 /*  end fonts */
 
 .circles-list .circle-item {
-  border-radius: 100%;
-  width: 200px;
-  height: 200px;
-  padding: 15px;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	padding: 15px;
 }
 
 .list-check li {
-  margin-bottom: 10px;
-  list-style: none;
-  position: relative;
+	margin-bottom: 10px;
+	list-style: none;
+	position: relative;
 }
 
 .list-check li:before {
-  content: "\f058";
-  font-family: FontAwesome;
-  font-size: 15px;
-  left: -30px;
-  top: 2px;
-  position: absolute;
+	content: "\f058";
+	font-family: FontAwesome;
+	font-size: 15px;
+	left: -30px;
+	top: 2px;
+	position: absolute;
 }
 
 @media (max-width: 767px) {
-  .banner {
-    background-image: none !important;
-  }
+	.banner {
+		background-image: none !important;
+	}
 
-  .banner-footer {
-    display: none;
-  }
+	.banner-footer {
+		display: none;
+	}
 
-  footer {
-    border-top: 1px solid #cecece;
-    text-align: center;
-  }
+	footer {
+		border-top: 1px solid #cecece;
+		text-align: center;
+	}
 }
 
 @media (max-width: 991px) {
-  .header .navbar .btn {
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
+	.header .navbar .btn {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
 }
 
 .full-link {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
