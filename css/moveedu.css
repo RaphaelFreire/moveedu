@@ -1,12 +1,7 @@
 body {
-<<<<<<< HEAD
-  font-family: "Raleway", sans-serif;
-  background-color: #02acc4;
-=======
 	font-family: "Raleway", sans-serif;
 	background-color: #02acc4;
 	padding-top: 90px;
->>>>>>> refs/remotes/origin/master
 }
 
 .logo {
@@ -31,12 +26,6 @@ body {
 }
 
 .chamada-principal-titulo {
-<<<<<<< HEAD
-	font-weight: 700;
-	font-size: 3em;
-  text-transform: uppercase;
-  color: #fff;
-=======
 	margin-top: 5vh;
 	margin-left: 1vw;
 	font-weight: 600;
@@ -44,7 +33,6 @@ body {
 	line-height: 6.5rem;
 	text-transform: uppercase;
 	color: #fff;
->>>>>>> refs/remotes/origin/master
 }
 
 .chamada-principal-paragrafo {
@@ -69,13 +57,13 @@ body {
 	line-height: 2rem;
 	text-transform: uppercase;
 	border-bottom: 1px solid #ced4da;
-	padding-top: 10px;
 	padding-bottom: 15px;
 }
 
 .card-form {
 	position: fixed;
 	top: 90px;
+	width: 400px;
 }
 
 .card.card-form {
