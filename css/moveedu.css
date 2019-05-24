@@ -1,5 +1,6 @@
 body {
-	font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: #02acc4;
 }
 
 /* Header */
@@ -24,14 +25,9 @@ body {
 	margin: 6px;
 }
 
-.banner-principal {
-	background-color: #02acc4;
-}
-
 .chamada-principal-titulo {
-	margin-top: 10%;
 	font-weight: 700;
-	font-size: 5rem;
+	font-size: 3em;
   text-transform: uppercase;
   color: #fff;
 }
