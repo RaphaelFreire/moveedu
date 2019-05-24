@@ -1,17 +1,22 @@
 body {
+<<<<<<< HEAD
   font-family: "Raleway", sans-serif;
   background-color: #02acc4;
+=======
+	font-family: "Raleway", sans-serif;
+	background-color: #02acc4;
+	padding-top: 90px;
+>>>>>>> refs/remotes/origin/master
 }
 
-/* Header */
 .logo {
-	width: 250px;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-@media (max-width: 320px) {
-	.logo {
-		width: 200px;
-	}
+.btn {
+	text-transform: uppercase;
 }
 
 .icone-social {
@@ -26,17 +31,134 @@ body {
 }
 
 .chamada-principal-titulo {
+<<<<<<< HEAD
 	font-weight: 700;
 	font-size: 3em;
   text-transform: uppercase;
   color: #fff;
+=======
+	margin-top: 5vh;
+	margin-left: 1vw;
+	font-weight: 600;
+	font-size: 6rem;
+	line-height: 6.5rem;
+	text-transform: uppercase;
+	color: #fff;
+>>>>>>> refs/remotes/origin/master
 }
 
 .chamada-principal-paragrafo {
-  font-weight: 400;
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: #fff;
+	margin-top: 3vh;
+	margin-left: 1vw;
+	width: 45vw;
+	font-weight: 400;
+	font-size: 2.3rem;
+	line-height: 3rem;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.selo-premio {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.titulo-formulario {
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ced4da;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.card-form {
+	position: fixed;
+	top: 90px;
+}
+
+.card.card-form {
+	padding: 10px 20px;
+	margin: 25px;
+}
+
+.card-form label {
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.7);
+	margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+	.card-form {
+		position: static;
+	}
+
+	.chamada-principal-titulo {
+		margin-top: 5vh;
+		margin-left: 3vw;
+		font-size: 3.5rem;
+		line-height: 4rem;
+	}
+
+	.chamada-principal-paragrafo {
+		margin-left: 3vw;
+		font-size: 1.7rem;
+		line-height: 2rem;
+		width: 90vw;
+	}
+
+	.titulo-formulario {
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+	}
+
+	.card.card-form {
+		margin: 0px;
+	}
+
+	.card-form label {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.chamada-principal-paragrafo {
+		font-size: 1.7rem;
+		line-height: 2rem;
+		width: 90vw;
+	}
+
+	.titulo-formulario {
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+	}
+
+	.card.card-form {
+		margin: 3px;
+	}
+}
+
+@media (max-width: 320px) {
+	.logo {
+		width: 200px;
+	}
+
+	.chamada-principal-titulo {
+		font-size: 3rem;
+		line-height: 3.5rem;
+	}
+
+	.chamada-principal-paragrafo {
+		font-size: 1.2rem;
+		line-height: 1.8rem;
+		width: 90vw;
+	}
+
+	.titulo-formulario {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
 }
 
 @media (min-width: 768px) {
@@ -66,8 +188,6 @@ body {
 }
 
 body {
-	font-family: "Open Sans", sans-serif;
-	padding-top: 80px;
 }
 
 /* a {
@@ -75,14 +195,6 @@ body {
 } */
 
 /* Helpers */
-.btn {
-	border-radius: 0;
-	text-transform: uppercase;
-}
-
-.form-control {
-	border-radius: 0;
-}
 
 .bg-dark {
 	color: #232323;
@@ -102,35 +214,6 @@ body {
 	color: white;
 }
 
-small {
-	font-size: 70%;
-}
-/* end Helpers */
-
-/* end Header */
-
-/* logo */
-/* .logo {
-  width: 175px;
-  height: 60px;
-} */
-/* end logo */
-
-/* Banner */
-.banner {
-	position: relative;
-	padding: 50px 0;
-}
-/* end Banner */
-
-/*  Form */
-.card-form {
-	color: #333;
-	border-radius: 0;
-	margin: auto;
-	z-index: 3;
-}
-
 @media (min-width: 999px) {
 	.card-form {
 		position: fixed;
@@ -138,53 +221,8 @@ small {
 	}
 }
 
-.card.card-form {
-	padding: 10px 20px;
-}
-
 .card-form .form-group {
 	margin-bottom: 10px;
-}
-
-.card-form .btn {
-	white-space: normal;
-}
-
-.card-form .form-title {
-	text-align: center;
-	font-weight: 600;
-	font-size: 24px;
-	line-height: 1.2;
-	margin-bottom: 0;
-}
-
-.card-form .divider {
-	border-color: #aeaeae;
-}
-
-.card-form label {
-	text-transform: uppercase;
-}
-
-@media (max-width: 767px) {
-	.card-form label {
-		font-size: 14px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.card-form {
-		max-width: 460px;
-	}
-
-	.card-form .form-title {
-		font-size: 30px;
-	}
-}
-
-.card-form .btn {
-	font-weight: bold;
-	font-size: 20px;
 }
 
 .tooltip .tooltip-inner {
