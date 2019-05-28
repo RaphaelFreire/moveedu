@@ -126,9 +126,11 @@ body {
 }
 
 .full-link {
-	position: absolute;
+	/* position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 100%; */
+	color: inherit;
+	text-decoration: underline;
 }
 
 .franchises .card .img-overlay {
@@ -143,13 +145,36 @@ body {
 
 .logo-sprite {
 	object-fit: cover;
-	object-position: 0 -13px;
 	width: 250px;
 	height: 250px;
 }
 
+.-prepara {
+	object-position: 0 -18px;
+}
+
 .-microlins {
 	object-position: 0 -270px;
+}
+
+.-sos {
+	object-position: 0 -780px;
+}
+
+.-people {
+	object-position: 0 -530px;
+}
+
+.-ensina {
+	object-position: 0 -1025px;
+}
+
+.-pingus {
+	object-position: 0 -1270px;
+}
+
+.-talk {
+	object-position: 0 -1530px;
 }
 
 .conteudo-marca {
@@ -176,17 +201,6 @@ body {
 	opacity: 0;
 	z-index: -1;
 }
-
-/* .franchises .card {
-	width: 100%;
-	margin-bottom: 20px;
-	min-height: 150px;
-} */
-
-/* .franchises .card img {
-	display: block;
-	margin: auto;
-} */
 
 @media (max-width: 768px) {
 	.card-form {
