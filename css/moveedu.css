@@ -113,8 +113,9 @@ body {
 .main-content {
 	background-color: #fff;
 	padding: 10vh 0;
-	background: url("../img/move-edu/bg-pattern-moveedu.jpg") no-repeat;
-	background-position: center;
+	background: url("../img/move-edu/bg-pattern-moveedu.svg") no-repeat;
+	background-size: 150vw;
+	background-position: top;
 }
 
 .titulo-franquias {
