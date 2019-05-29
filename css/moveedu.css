@@ -87,7 +87,7 @@ body {
 .icone-dados {
 	width: 200px;
 	height: 200px;
-	background-image: url(img/logos/logo-selo-dados.svg);
+	background-image: url(../img/logos/logo-selo-dados.svg);
 	background-size: cover;
 }
 
@@ -144,7 +144,7 @@ body {
 .logo-sprite {
 	width: 200px;
 	height: 200px;
-	background-image: url(img/logos/logo-marcas.svg);
+	background-image: url(../img/logos/logo-marcas.svg);
 	background-size: cover;
 }
 
