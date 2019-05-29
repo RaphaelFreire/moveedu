@@ -262,34 +262,6 @@ body {
 		margin: 3px;
 		width: 90vw;
 	}
-
-	.-prepara {
-		object-position: 0 0px;
-	}
-
-	.-microlins {
-		object-position: 0 -260px;
-	}
-
-	.-sos {
-		object-position: 0 -760px;
-	}
-
-	.-people {
-		object-position: 0 -515px;
-	}
-
-	.-ensina {
-		object-position: 0 -1010px;
-	}
-
-	.-pingus {
-		object-position: 0 -1255px;
-	}
-
-	.-talk {
-		object-position: 0 -1510px;
-	}
 }
 
 @media (max-width: 320px) {
