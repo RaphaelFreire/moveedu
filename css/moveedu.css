@@ -85,23 +85,22 @@ body {
 }
 
 .icone-dados {
-	object-fit: cover;
-	object-position: 0 0;
 	width: 200px;
 	height: 200px;
-	/* border: 1px solid black; */
+	background-image: url(/img/logos/logo-selo-dados.svg);
+	background-size: cover;
 }
 
 .-posicao-2 {
-	object-position: 0 -596px;
+	background-position-y: 200px;
 }
 
 .-posicao-3 {
-	object-position: 0 -396px;
+	background-position-y: 400px;
 }
 
 .-posicao-4 {
-	object-position: 0 -198px;
+	background-position-y: 600px;
 }
 
 .banner-principal {
@@ -143,37 +142,38 @@ body {
 }
 
 .logo-sprite {
-	object-fit: cover;
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
+	background-image: url(/img/logos/logo-marcas.svg);
+	background-size: cover;
 }
 
 .-prepara {
-	object-position: 0 -18px;
+	background-position: 0 0px;
 }
 
 .-microlins {
-	object-position: 0 -270px;
+	background-position: 0 -210px;
 }
 
 .-sos {
-	object-position: 0 -780px;
+	background-position: 0 -600px;
 }
 
 .-people {
-	object-position: 0 -530px;
+	background-position: 0 -400px;
 }
 
 .-ensina {
-	object-position: 0 -1025px;
+	background-position: 0 -800px;
 }
 
 .-pingus {
-	object-position: 0 -1270px;
+	background-position: 0 -1000px;
 }
 
 .-talk {
-	object-position: 0 -1520px;
+	background-position: 0 -1200px;
 }
 
 .conteudo-marca {
