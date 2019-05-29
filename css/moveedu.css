@@ -64,6 +64,7 @@ body {
 	position: fixed;
 	top: 90px;
 	width: 420px;
+	z-index: 1;
 }
 
 .card.card-form {
@@ -92,7 +93,7 @@ body {
 }
 
 .-posicao-2 {
-	object-position: 0 -198px;
+	object-position: 0 -596px;
 }
 
 .-posicao-3 {
@@ -100,7 +101,7 @@ body {
 }
 
 .-posicao-4 {
-	object-position: 0 -596px;
+	object-position: 0 -198px;
 }
 
 .banner-principal {
