@@ -45,6 +45,8 @@ this.addEventListener("activate", event => {
 
 // Serve from Cache
 this.addEventListener("fetch", event => {
+	console.log('The service worker is serving the asset.');
+    evt.respondWith(fromCache(evt.request));
 	event.respondWith(
 		caches
 			.match(event.request)
@@ -56,3 +58,4 @@ this.addEventListener("fetch", event => {
 			})
 	);
 });
+
