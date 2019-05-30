@@ -1,5 +1,5 @@
 //sw.js
-const staticCacheName = "moveedu-30/05/2019";
+const staticCacheName = "move-30/05/2019";
 
 let filesToCache = [
 	"index.html",
@@ -35,7 +35,7 @@ this.addEventListener("activate", event => {
 		caches.keys().then(cacheNames => {
 			return Promise.all(
 				cacheNames
-					.filter(cacheName => cacheName.startsWith("moveedu-"))
+					.filter(cacheName => cacheName.startsWith("move-"))
 					.filter(cacheName => cacheName !== staticCacheName)
 					.map(cacheName => caches.delete(cacheName))
 			);
