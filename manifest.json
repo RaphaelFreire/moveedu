@@ -1,0 +1,18 @@
+{
+	"name": "Moveedu Inovação e Educação",
+	"short_name": "Moveedu",
+	"theme_color": "#02acc4",
+	"background_color": "#fff",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/?utm_source=homescreen",
+	"lang": "pt-BR",
+	"orientation": "any",
+	"icons": [
+		{
+			"src": "/img/logo-moveedu.svg",
+			"sizes": "512x512",
+			"type": "image/svg"
+		}
+	]
+}
