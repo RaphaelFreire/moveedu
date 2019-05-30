@@ -1,5 +1,7 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
+var minifycss = require("gulp-minify-css");
+var rename = require("gulp-rename");
 
 gulp.task(
 	"sass",
@@ -11,6 +13,8 @@ gulp.task(
 				"css/*.scss"
 			])
 			.pipe(sass())
+			.pipe(rename({ suffix: ".min" }))
+			.pipe(minifycss())
 			.pipe(gulp.dest("css"));
 	})
 );
