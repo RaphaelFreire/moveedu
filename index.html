@@ -278,8 +278,16 @@
 
 
 
-<script rel="preload" async src="js/jquery.min.js" as="script"></script>
-<script rel="preload" async src="js/popper.min.js" as="script"></script>
-<script rel="preload" async src="js/bootstrap.min.js" as="script"></script>
+<script rel="preload" src="js/jquery.min.js" as="script"></script>
+<script rel="preload" src="js/popper.min.js" as="script"></script>
+<script rel="preload" src="js/bootstrap.min.js" as="script"></script>
+
+<script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+</script>
 </body>
 </html>
