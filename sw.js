@@ -1,4 +1,4 @@
-//sw.js
+// sw.js
 const staticCacheName = "move-30/05/2019";
 
 let filesToCache = [
