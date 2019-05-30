@@ -15,8 +15,7 @@ let filesToCache = [
 	"/img/move-edu/bg-pattern-moveedu.svg",
 	"/js/bootstrap.min.js",
 	"/js/jquery.min.js",
-	"/js/popper.min.js",
-	"sw.js"
+	"/js/popper.min.js"
 ];
 
 // Cache on install
