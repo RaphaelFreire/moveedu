@@ -1,5 +1,5 @@
 // sw.js
-const staticCacheName = "move-30/05/2019";
+const staticCacheName = "raphael-freire-30/05/2019";
 
 let filesToCache = [
 	"index.html",
@@ -35,7 +35,9 @@ this.addEventListener("activate", event => {
 		caches.keys().then(cacheNames => {
 			return Promise.all(
 				cacheNames
-					.filter(cacheName => cacheName.startsWith("move-"))
+					.filter(cacheName =>
+						cacheName.startsWith("raphael-freire-")
+					)
 					.filter(cacheName => cacheName !== staticCacheName)
 					.map(cacheName => caches.delete(cacheName))
 			);
@@ -45,8 +47,6 @@ this.addEventListener("activate", event => {
 
 // Serve from Cache
 this.addEventListener("fetch", event => {
-	console.log('The service worker is serving the asset.');
-    evt.respondWith(fromCache(evt.request));
 	event.respondWith(
 		caches
 			.match(event.request)
@@ -58,4 +58,3 @@ this.addEventListener("fetch", event => {
 			})
 	);
 });
-
