@@ -10,13 +10,13 @@
 	"orientation": "any",
 	"icons": [
 		{
-			"src": "img/logos/logo-moveedu.svg",
-			"type": "image/svg",
+			"src": "img/logos/logo-moveedu-192.svg",
+			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "img/logos/logo-moveedu.svg",
-			"type": "image/svg",
+			"src": "img/logos/logo-moveedu-512.svg",
+			"type": "image/png",
 			"sizes": "512x512"
 		}
 	]
