@@ -10,8 +10,6 @@ let filesToCache = [
 	"img/logos/logo-marcas.svg",
 	"img/logos/logo-moveedu.svg",
 	"img/logos/logo-selo-dados.svg",
-	"img/logos/logo-moveedu-192.png",
-	"img/logos/logo-moveedu-512.png",
 	"img/logos/img-trans.svg",
 	"img/move-edu/banner.jpg",
 	"img/move-edu/bg-pattern-moveedu.svg",
