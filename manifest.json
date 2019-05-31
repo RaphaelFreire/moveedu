@@ -11,8 +11,13 @@
 	"icons": [
 		{
 			"src": "img/logos/logo-moveedu.svg",
-			"sizes": "512x512",
-			"type": "image/svg"
+			"type": "image/svg",
+			"sizes": "192x192"
+		},
+		{
+			"src": "img/logos/logo-moveedu.svg",
+			"type": "image/svg",
+			"sizes": "512x512"
 		}
 	]
 }
