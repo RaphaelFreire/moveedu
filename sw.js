@@ -3,19 +3,19 @@ const staticCacheName = "raphael-freire-30/05/2019";
 
 let filesToCache = [
 	"index.html",
-	"css/moveedu.min.css",
-	"css/bootstrap.min.css",
-	"img/logos/logo-facebook.svg",
-	"img/logos/logo-insta.svg",
-	"img/logos/logo-marcas.svg",
-	"img/logos/logo-moveedu.svg",
-	"img/logos/logo-selo-dados.svg",
-	"img/logos/img-trans.svg",
-	"img/move-edu/banner.jpg",
-	"img/move-edu/bg-pattern-moveedu.svg",
-	"js/bootstrap.min.js",
-	"js/jquery.min.js",
-	"js/popper.min.js"
+	"/css/moveedu.min.css",
+	"/css/bootstrap.min.css",
+	"/img/logos/logo-facebook.svg",
+	"/img/logos/logo-insta.svg",
+	"/img/logos/logo-marcas.svg",
+	"/img/logos/logo-moveedu.svg",
+	"/img/logos/logo-selo-dados.svg",
+	"/img/logos/img-trans.svg",
+	"/img/move-edu/banner.jpg",
+	"/img/move-edu/bg-pattern-moveedu.svg",
+	"/js/bootstrap.min.js",
+	"/js/jquery.min.js",
+	"/js/popper.min.js"
 ];
 
 // Cache on install
