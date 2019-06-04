@@ -59,11 +59,12 @@ this.addEventListener("fetch", event => {
 	);
 });
 
-// Register event listener for the 'push' event.
-self.addEventListener('push', function(event) {
-	event.waitUntil(
-	  self.registration.showNotification('ServiceWorker Cookbook', {
-		body: 'Alea iacta est',
-	  })
-	);
+let myFirstPromise = new Promise((resolve, reject) => {
+	setTimeout(function(){
+	  resolve("Success Raphael!");
+	}, 2250);
+  });
+
+myFirstPromise.then((successMessage) => {
+	console.log("Yay! " + successMessage);
   });
