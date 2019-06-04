@@ -58,3 +58,12 @@ this.addEventListener("fetch", event => {
 			})
 	);
 });
+
+// Register event listener for the 'push' event.
+self.addEventListener('push', function(event) {
+	event.waitUntil(
+	  self.registration.showNotification('ServiceWorker Cookbook', {
+		body: 'Alea iacta est',
+	  })
+	);
+  });
