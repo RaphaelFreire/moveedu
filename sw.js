@@ -11,6 +11,7 @@ let filesToCache = [
 	"img/logos/logo-moveedu.svg",
 	"img/logos/logo-selo-dados.svg",
 	"img/logos/img-trans.svg",
+	"img/logos/selo-premio.png",
 	"img/move-edu/banner.jpg",
 	"img/move-edu/bg-pattern-moveedu.svg",
 	"js/bootstrap.min.js",
