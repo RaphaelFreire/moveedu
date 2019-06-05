@@ -59,12 +59,16 @@ this.addEventListener("fetch", event => {
 	);
 });
 
-let myFirstPromise = new Promise((resolve, reject) => {
-	setTimeout(function(){
-	  resolve("Success Raphael!");
-	}, 2250);
-  });
+self.addEventListener("push", function(event) {
+	console.log("[Service Worker] Push Received.");
+	console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
 
-myFirstPromise.then((successMessage) => {
-	console.log("Yay! " + successMessage);
-  });
+	const title = "Moveedu";
+	const options = {
+		body: "Mesagem enviada via push",
+		icon: "img/logos/icone-moveedu-48.png",
+		badge: "img/logos/icone-moveedu-72.png"
+	};
+
+	event.waitUntil(self.registration.showNotification(title, options));
+});
