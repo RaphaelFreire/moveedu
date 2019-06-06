@@ -2,13 +2,6 @@
 	{
 		"relation": ["delegate_permission/common.handle_all_urls"],
 		"target": {
-			"namespace": "web",
-			"site": "https://moveedu.netlify.com"
-		}
-	},
-	{
-		"relation": ["delegate_permission/common.handle_all_urls"],
-		"target": {
 			"namespace": "android_app",
 			"package_name": "org.chromium.twa.moveedu",
 			"sha256_cert_fingerprints": [
