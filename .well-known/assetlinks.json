@@ -10,9 +10,9 @@
 		"relation": ["delegate_permission/common.handle_all_urls"],
 		"target": {
 			"namespace": "android_app",
-			"package_name": "org.digitalassetlinks.sampleapp",
+			"package_name": "org.chromium.twa.moveedu",
 			"sha256_cert_fingerprints": [
-				"10:39:38:EE:45:37:E5:9E:8E:E7:92:F6:54:50:4F:B8:34:6F:C6:B3:46:D0:BB:C4:41:5F:C3:39:FC:FC:8E:C1"
+				"43:4E:99:5F:30:A4:D9:9A:B2:A7:75:70:79:6E:76:AA:0E:9F:08:DC:4C:76:64:7F:43:96:87:E4:FB:B3:70:1C"
 			]
 		}
 	}
