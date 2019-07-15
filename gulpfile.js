@@ -1,6 +1,6 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
-var minifycss = require("gulp-minify-css");
+let cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 
 gulp.task(
@@ -14,8 +14,8 @@ gulp.task(
 			])
 			.pipe(sass())
 			.pipe(rename({ suffix: ".min" }))
-			.pipe(minifycss())
-			.pipe(gulp.dest("css"));
+			.pipe(cleanCSS({compatibility: 'ie8'}))
+    		.pipe(gulp.dest('css'));
 	})
 );
 

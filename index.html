@@ -3,19 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#00a7b4">
+    <meta name="theme-color" content="#fff">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#00a7b4">
-    <meta name="apple-mobile-web-app-title" content="MoveEdu - Inova&#231;&#227;o e Educa&#231;&#227;ogit ">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+    <meta name="apple-mobile-web-app-title" content="Ensina Mais - Turma da Mônica">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" href="img/logos/icone-moveedu-192.png">
-    <meta name="description" content="Seja franqueado da maior rede de escolas de Educação Profissional do Mundo! Alie-se aos 30 anos de experiência em franchising e educação da MoveEdu e esteja à frente das principais inovações no mercado.">
-    <link rel="icon" href="img/logos/favicon.png" sizes="16x16">
-    <link rel="manifest" href="manifest.json">
-    <title>MoveEdu - Inova&#231;&#227;o e Educa&#231;&#227;o</title>
-    <link rel=”preload” href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap"  as="font"/>
+    <!-- <link rel="apple-touch-icon" href="img/logos/icone-moveedu-192.png"> -->
+    <meta name="description" content="Transforme a educação no Brasil. Seja franqueado Ensina Mais Turma da Mônica e ajude milhares de alunos no Brasil a se prepararem para o futuro!">
+    <!-- <link rel="icon" href="img/logos/favicon.png" sizes="16x16"> -->
+    <!-- <link rel="manifest" href="manifest.json"> -->
+    <title>Ensina Mais - Turma da Mônica</title>
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" as="font">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <link rel="stylesheet preload" href="css/bootstrap.min.css" as="style">
     <link rel="stylesheet preload" href="css/moveedu.min.css" as="style">
     
@@ -28,7 +29,7 @@
         <div class="container">
             <nav class="navbar navbar-light">
                 <a class="navbar-brand" href="#">
-                    <img rel="preload" class="logo" src="img/logos/logo-moveedu.svg" alt="logo Moveedu" as="image" type="image"></img>
+                    <img rel="preload" class="logo" src="img/logos/ensina-mais.svg" alt="Ensina Mais - Turma da Mônica" as="image" type="image"></img>
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,25 +38,40 @@
 
                 <div class="collapse navbar-collapse justify-content-end" id="menu">
                     <ul class="navbar-nav">
-                            <li class="nav-item mr-2 active">
-                                <a class="btn btn-outline-primary rounded-lg btn-block" href="javascript:scroll('#aboutUsSection')">Quem somos</a>
+                            <li class="nav-item mr-2 active btn-efeito">
+                                <a class="btn btn-link btn-efeito-ensina" href="#">Home</a>
                             </li>
-                            <li class="nav-item mr-2">
-                                <a class="btn btn-outline-primary rounded-lg btn-block" href="javascript:scroll('#franchiseSection')">Franquias</a>
+                            <li class="nav-item mr-2 btn-efeito">
+                                <a class="btn btn-link btn-efeito-ensina" href="#">Sobre</a>
                             </li>
-                            <li class="nav-item mr-2">
-                                <a class="btn btn-outline-primary rounded-lg btn-block" href="https://blog.moveedu.com.br">Notícias</a>
-                            </li>            
-                            <li class="text-center">
-                                <a href="https://www.instagram.com/moveedu/" target="_blank" rel="noopener" title="Instagram">
-                                <img class="icone-social" src="img/logos/logo-insta.svg" alt="Logo Instagram">
-                                </a>
+                            <!-- <li class="nav-item mr-2 dropdown btn-efeito">
+                                    <a class="btn btn-link dropdown-toggle btn-efeito-ensina" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Conheça a Ensina Mais</a>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="#">A Ensina Mais</a>
+                                      <a class="dropdown-item" href="#">Metodologia Inovadora</a>
+                                      <a class="dropdown-item" href="#">Benefícios e resultados</a>
+                                    </div>
+                            </li> -->
+                            <li class="nav-item mr-2 dropdown btn-efeito">
+                                    <a class="btn btn-link dropdown-toggle btn-efeito-ensina" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cursos</a>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="#">Português</a>
+                                      <a class="dropdown-item" href="#">Matemática</a>
+                                      <a class="dropdown-item" href="#">Robótica</a>
+                                      <a class="dropdown-item" href="#">Informática</a>
+                                      <a class="dropdown-item" href="#">Inglês</a>
+                                    </div>
                             </li>
-                            <li class="text-center">
-                                <a href="https://www.facebook.com/moveeduinovacaoeducacao" target="_blank" rel="noopener" title="Facebook">
-                                <img class="icone-social" src="img/logos/logo-facebook.svg" alt="Logo Facebook">
-                                </a> 
+
+                            <li class="nav-item mr-2 btn-efeito">
+                                <a class="btn btn-link btn-efeito-ensina" href="#">Unidades</a>
                             </li>
+                            <li class="nav-item mr-2 btn-efeito">
+                                <a class="btn btn-link btn-efeito-ensina" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item mr-2 btn-efeito">
+                                <a class="btn btn-primary btn-menu-destaque" href="#">Quero ser franqueado</a>
+                            </li>               
                     </ul>
                  
                 </div>
@@ -66,24 +82,18 @@
 <section class="banner-principal">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-7">
+            <div class="col-sm-12 col-md-5 col-lg-7">
                 <div class="row">
-                        <h1 class="chamada-principal-titulo">Invista em Educação</h1>
-                        <p class="chamada-principal-paragrafo">Transforme o seu futuro e o de milhares de pessoas</p>
-                </div>
-                <div class="row selo-premio align-middle">
-                    <div class="col-11">
-                        <img src="img/logos/selo-premio.png" class="img-fluid logo-abf" alt="Selos de excelência">
-                    </div>                        
+                        <h1 class="chamada-principal-titulo"><span class="font-cursive-style1">Cursos</span> que ampliam as competências do seu filho</h1>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-5">
-                <div class="card card-form rounded-lg shadow-lg p-3 mb-5">
-                    <h3 class="titulo-formulario text-primary">Faça parte do maior grupo de franquias de educação profissional do mundo</h3> 
+            <div class="col-sm-12 col-md-3 col-lg-4">
+                <div class="card card-form shadow-lg p-3 mb-5">
+                    <h2 class="titulo-formulario">Agendar uma <strong>aula experimental</strong> para o seu filho</h2> 
                     
-                    <form id="form" name="myForm">
-                        <input id="school" type="hidden" name="school" value="MoveEdu">
+                    <form action="form-request.php" method="POST" name="formCadastro" id="formCadastro">
+                        <input type="hidden" id="tipo" name="tipo" value="Home Page">
                         <div class="form-group">
                             <label for="name">Nome</label>
                             <input type="text" class="form-control" id="name" data-placement="left" required name="name" aria-describedby="name">
@@ -106,8 +116,14 @@
                                 <select class="form-control" id="city" data-placement="top" required name="city"></select>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="form-group col-12">
+                                <label for="city">Unidade</label>
+                                <select class="form-control" id="unidade" data-placement="top" required name="unidade"></select>
+                            </div>
+                        </div>
                         <div>                            
-                            <button id="franchise-btn" type="submit" onclick="event.preventDefault();" class="btn btn-lg btn-outline-primary rounded-lg btn-block">Interesse em franquia</button>
+                            <button id="franchise-btn" type="submit" onclick="event.preventDefault();" class="btn btn-lg btn-primary btn-block btn-enviar">Enviar</button>
                         </div>
                     </form>
                 </div>
@@ -116,170 +132,105 @@
     </div>
 </section>
 
-<section id="aboutUsSection" class="main-content">
+<section>
     <div class="container">
-        <div class="col-lg-7">
+        <div class="row">
+        <div class="col-md-12">
+            <h3 class="titulo-monica-cebolinha">Bem-vindo a <strong>Educação do Futuro</strong></h3>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-6">
+            <img class="img-monica-cebolinha" src="img/move-edu/perso-01.png" alt="Mônica e Cebolinha">
+        </div>
+        <div class="col-md-6">
+            <iframe class="embed-responsive-item video-1" src="https://www.youtube.com/embed/Zy1ALpRC1E4" allowfullscreen></iframe>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section>
+        <div class="container">
+            <div class="row justify-content-around">
+                    <div class="text-center card-body-ensina">
+                            <div class="card-body">
+                              <h5 class="card-title card-titulo-body-ensina">STEAM</h5>
+                              <p class="card-text">(Science, Technology, Engineering, Arts e Mathematics)</p>
+                            </div>
+                    </div>
+
+                    <div class="text-center card-body-ensina">
+                            <div class="card-body">
+                              <h5 class="card-title card-titulo-body-ensina">Maurício de Sousa</h5>
+                              <p class="card-text">(Science, Technology, Engineering, Arts e Mathematics)</p>
+                            </div>
+                    </div>
+
+                    <div class="text-center card-body-ensina">
+                            <div class="card-body">
+                              <h5 class="card-title card-titulo-body-ensina">Habilidades do Séc. XXI</h5>
+                              <p class="card-text">(Science, Technology, Engineering, Arts e Mathematics)</p>
+                            </div>
+                    </div>
+              
+            </div>
             <div class="row">
-                <div class="cold-sm-12 col-md-5 content-item">
-                    <img class="icone-dados" src="img/logos/img-trans.svg" alt="+ de 90% dos franqueados abririam uma nova unidade ou indicariam franquias da MoveEdu">
-                    <p>
-                        <strong>selos</strong> de excelência.
-                    </p>
-                </div>
-                <div class="cold-sm-12 col-md-5 content-item ">
-                    <img class="icone-dados  -posicao-2" src="img/logos/img-trans.svg" alt="+ de 30 anos de excelência em Franchising">
-                    <p>
-                        anos de <strong>excelência em Franchising</strong> e Educação.
-                    </p>
-                </div>
-
-                <div class="cold-sm-12 col-md-5 content-item">
-                    <img class="icone-dados -posicao-3" src="img/logos/img-trans.svg" alt="1200 franquias">
-                    <p>
-                        <strong>franquias.</strong>
-                    </p>
-                </div>
-
-                <div class="cold-sm-12 col-md-5 content-item">
-                    <img class="icone-dados -posicao-4" src="img/logos/img-trans.svg" alt="500 mil alunos formados por ano">
-                    <p>
-                        <strong>alunos formados</strong> por ano.
-                    </p>
-                </div>
-
+                    <div class="col-md-12">
+                        <h3 class="titulo-monica-cebolinha-jovem"><span class="font-cursive-style2">Cursos</span> que transformarão o <span class="font-cursive-style2">desempenho escolar</span> do seu filho</h3>
+                    </div>
             </div>
         </div>
-    </div>
 </section>
 
-<section id="franchiseSection">
+<section class="background-monica-cebolinha-jovem">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="media mt-5">
+                        <img class="align-self-center mr-3 icones" src="img/logos/img-trans.svg" alt="Icone Português">
+                        <div class="media-body">
+                            <h4 class="mt-0 text-uppercase"><strong>Português</strong></h4>
+                            <p>Desenvolve a habilidade de interpretação de textos, hábito pela leitura e os estudos.</p>
+                        </div>
+                </div>
+                <div class="media mt-5">
+                        <img class="align-self-center mr-3 icones -matematica" src="img/logos/img-trans.svg" alt="Icone Matemática">
+                        <div class="media-body">
+                            <h4 class="mt-0 text-uppercase"><strong>Matemática</strong></h4>
+                            <p>Desenvolve o raciocínio lógico, a concentração e a confiança nos estudos e na vida.</p>
+                        </div>
+                </div>
+                <div class="media mt-5 mb-5">
+                        <img class="align-self-center mr-3 icones -robotica" src="img/logos/img-trans.svg" alt="Icone Robótica">
+                        <div class="media-body">
+                            <h4 class="mt-0 text-uppercase"><strong>Robótica</strong></h4>
+                            <p>Desenvolve a criatividade e os raciocínios lógico, analítico e crítico.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="img-monica-cebolinha-jovem" src="img/move-edu/perso-02.png" alt="Mônica e Cebolinha Jovem">
+            </div>
+            </div>
+        </div>
+</section>
+
+<section>
     <div class="container">
-        <div class="col-lg-7">
-            <div class="card bg-primary text-white rounded-lg">
-                <h4 class="titulo-franquias">Faça parte do maior grupo de franquias de educação profissionalizante do mundo</h4>
+        <div class="row">
+            <div class="col-md-6">
+                <blockquote class="blockquote text-center citacao-ensina-mais">
+                        <p>Milhares de crianças e adolescentes de todo Brasil já evoluíram o seu aprendizado por meio da experiência de ensino da Ensina Mais Turma da Mônica.</p>
+                </blockquote>
             </div>
-
-            <div class="row franchises">
-                <div class="col-md-6 col-md-6 d-flex align-content-stretch mb-4">
-                    <!-- Prepara Cursos -->
-                    <div class="card">
-                         <div class="img-overlay">
-                            <img class="logo-sprite -prepara" src="img/logos/img-trans.svg" alt="Prepara Cursos">
-                        </div>
-                        <div class="card-body conteudo-marca">
-                            <h5>Prepara Cursos</h5>
-                            <p>
-                                Rede premiada por 4 anos como a melhor franquia de cursos do Brasil.
-                                <a class="full-link" href="./prepara"><strong>Saiba mais</strong></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                 <div class="col-md-6 col-md-6 d-flex align-content-stretch mb-4">    
-                <!-- Microlins -->
-                    <div class="card">
-                         <div class="img-overlay">
-                            <img class="logo-sprite -microlins" src="img/logos/img-trans.svg" alt="Microlins">
-                        </div>
-                        <div class="card-body conteudo-marca">
-                            <h5>Microlins</h5>
-                            <p>
-                                Marca gigante que profissionaliza milhões de jovens no Brasil há mais de 25 anos.
-                                <a class="full-link" href="./microlins"><strong>Saiba mais</strong></a>
-                            </p>
-                        </div>
-                    </div>
-                    </div>
-
-                     <div class="col-md-6 col-md-6 d-flex align-content-stretch mb-4">    
-                    <!-- SOS -->
-                    <div class="card">
-                         <div class="img-overlay">
-                            <img class="logo-sprite -sos" src="img/logos/img-trans.svg" alt="SOS Tecnologia e Educação">
-                        </div>
-                        <div class="card-body conteudo-marca">
-                            <h5>S.O.S Tecnologia e Educação</h5>
-                            <p>
-                                Rede pioneira de cursos de tecnologia do Brasil.
-                                <a class="full-link" href="./sos"><strong>Saiba mais</strong></a>
-                            </p>
-                        </div>
-                    </div>
-                    </div>
-
-                     <div class="col-md-6 col-md-6 d-flex align-content-stretch mb-4">    
-                    <!-- People -->
-                    <div class="card">
-                         <div class="img-overlay">
-                            <img class="logo-sprite -people" src="img/logos/img-trans.svg" alt="People Tech and English">
-                        </div>
-                        <div class="card-body conteudo-marca">
-                            <h5>People Tech and English</h5>
-                            <p>
-                                Maior escola de programação e robótica para as novas gerações do Brasil.
-                                <a class="full-link" href="./people"><strong>Saiba mais</strong></a>
-                            </p>
-                        </div>
-                    </div>
-                    </div>
-
-
-                    <div class="col-md-6 col-md-6 d-flex align-content-stretch mb-4">    
-                    <!-- Ensina Mais -->
-                    <div class="card">
-                         <div class="img-overlay">
-                            <img class="logo-sprite -ensina" src="img/logos/img-trans.svg" alt="Turma da Mônica Ensina Mais">
-                        </div>
-                        <div class="card-body conteudo-marca">
-                            <h5>Turma da Mônica Ensina Mais</h5>
-                            <p>
-                                Franquia de apoio escolar licenciada Turma da Mônica com metodologia exclusiva de ensino individualizado.
-                                <a class="full-link" href="./ensina"><strong>Saiba mais</strong></a>
-                            </p>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="col-md-6 col-md-6 d-flex align-content-stretch mb-4">    
-                    <!-- Pingu`s English-->
-                    <div class="card">
-                         <div class="img-overlay">
-                            <img class="logo-sprite -pingus" src="img/logos/img-trans.svg" alt="Pingu`s English">
-                        </div>
-                        <div class="card-body conteudo-marca">
-                            <h5>Pingu`s English</h5>
-                            <p>
-                                Franquia de apoio escolar licenciada Turma da Mônica com metodologia exclusiva de ensino individualizado.
-                               <a class="full-link" href="./pingus"><strong>Saiba mais</strong></a>
-                            </p>
-                        </div>
-                    </div>
-                    </div>
-
-                     <div class="col-md-6 col-md-6 d-flex align-content-stretch mb-4">    
-                    <!-- English Talk-->
-                    <div class="card">
-                         <div class="img-overlay">
-                            <img class="logo-sprite -talk" src="img/logos/img-trans.svg" alt="English Talk">
-                        </div>
-                        <div class="card-body conteudo-marca">
-                            <h5>English Talk</h5>
-                            <p>
-                                Primeira franquia de inglês 3.0 do Brasil, pioneira no Brasil com o Blended Learning.
-                               <a class="full-link" href="./talk"><strong>Saiba mais</strong></a>
-                            </p>
-                        </div>
-                    </div>
-                    </div>
-                
+            <div class="col-md-6">
+                <iframe class="embed-responsive-item video-2 mt-5" src="https://www.youtube.com/embed/Zy1ALpRC1E4" allowfullscreen></iframe>
             </div>
-
-
-
         </div>
     </div>
 </section>
+
 
 
 
