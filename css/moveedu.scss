@@ -118,23 +118,29 @@ body {
 	color: #fff;
 }
 
-.font-cursive-style1{
+.font-cursive{
 	font-family: 'Nothing You Could Do', cursive;
 	font-weight: 400;
 	font-size: 3rem;
-	background-color: $ensina-color-6;
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
-.font-cursive-style2{
-	font-family: 'Nothing You Could Do', cursive;
-	font-size: 3rem;
-	color: $white;
-	background-color: $ensina-color-8;
-	padding-left: 5px;
-	padding-right: 5px;
+.-style1{
+	background-color: $ensina-color-6;
 }
+
+.-style2{
+	background-color: $ensina-color-8;
+}
+
+.-style3{
+	background-color: $ensina-color-5;
+}
+
+
+
+
 
 
 
@@ -193,10 +199,10 @@ body {
 	line-height: 15rem;
 }
 
-.icones{
+.icones-sup{
 	width: 100px;
     height: 100px;
-    background-image: url(../img/logos/icones.svg);
+    background-image: url(../img/logos/icones-sup.svg);
     background-size: cover;
 }
 
@@ -216,19 +222,21 @@ body {
 .img-monica-cebolinha-jovem{
 	width: 500px;
 	top:-50px;
+	position: absolute;
 }
 
 .citacao-ensina-mais{
 	margin-top: 30%;
+	color: $ensina-color-6;
 }
 
 .citacao-ensina-mais:before{
 	content: " ";
 	position: absolute;
-	top: 30px;
+	top: 80px;
 	left: 0;
 	width: 100px;
-	height: 30px;
+	height: 25px;
 	background-image: url(../img/move-edu/detalhe-onda.svg);
 	background-position-y: 200px;
 }
@@ -236,7 +244,7 @@ body {
 .citacao-ensina-mais:after{
 	content: " ";
 	position: absolute;
-	bottom: -20px;
+	bottom: 110px;
 	right: 0;
 	width: 100px;
 	height: 30px;
@@ -244,13 +252,103 @@ body {
 	background-position-y: 300px;
 }
 
-
-
 .video-2{
 	width: 100%;
 	max-width: 500px;
 	height: 315px;
+	margin-bottom: 70px;
 	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icones-inf{
+	width: 100px;
+    height: 100px;
+    background-image: url(../img/logos/icones-inf.svg);
+    background-size: cover;
+}
+
+.-avaliacao{
+	background-position-y: 425px; 
+}
+
+.-desenvolvimento{
+	background-position-y: 312px; 
+}
+
+.-plano{
+	background-position-y: 207px; 
+}
+
+.-realizacao{
+	background-position-y: 104px; 
+}
+
+.background-metodologia{
+	background-color: $ensina-color-11;
+}
+
+.background-titulo-metodologia{
+	background-color: $ensina-color-10;
+}
+
+.titulo-metodologia{
+	text-align: center;
+	font-size: 2.5rem;
+	color: $ensina-color-4;
+	line-height: 12rem;
+	font-weight: 700;
+}
+
+.conteudo-metodologia{
+	font-size: 1.7rem;
+	color: $ensina-color-1;
+}
+
+.img-depoimento{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 70px;
+	width: 100%;
+	max-width: 400px;
+}
+
+.titulo-depoimento{
+	text-align: center;
+	font-size: 2.5rem;
+	color: $ensina-color-4;
+	line-height: 12rem;
+	font-weight: 700;
+}
+
+
+.depoimento-ensina-mais{
+	padding: 30px; 
+	border: 2px solid $ensina-color-12;
+	position: relative;
+}
+
+.depoimento-ensina-mais:after{
+	content: "V";
+	position: absolute;
+	bottom: -23px;
+	color: $ensina-color-12;
+	background-color: $white;
+}
+
+.footer-ensina{
+	height: 150px;
+	border-top: 1px solid $ensina-color-3;
+}
+
+.credito-moveedu{
+	font-size: 0.5rem;
+}
+
+.icone-social{
+	font-size: 1.5rem;
+	color: $ensina-color-12;
+	float: right;
+	margin-right: 10px;
 }
 
 
@@ -296,6 +394,10 @@ body {
 		width: 350px;
 		top:120px;
 	}
+
+	.citacao-ensina-mais:before{
+		top: 50px;
+	}
 }
 
 
@@ -332,6 +434,12 @@ body {
 	.img-monica-cebolinha-jovem{
 		width: 80%;
 		top:-20px;
+		position: static;
+	}
+
+
+	.-aluno{
+		width: 300px;
 	}
 
 }
@@ -350,8 +458,6 @@ body {
 	.card-form{
 		width: 360px;
 	}
-
-
 }
 
 
@@ -390,6 +496,34 @@ body {
 		margin-bottom: 30px;
 	}
 
+	.citacao-ensina-mais{
+		margin-top: 25%;
+	}
+
+	.citacao-ensina-mais:after{
+		bottom: 10px;
+	}
+
+	.titulo-metodologia{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		line-height: 3rem;
+	}
+	
+	.conteudo-metodologia{
+		font-size: 1rem;
+	}
+
+	.titulo-depoimento{
+		font-size: 1.75rem;
+		line-height: 6rem;
+		
+	}
+
+	.img-depoimento{
+		width: 200px;
+		margin-bottom: 15px;
+	}
 }
 
 
