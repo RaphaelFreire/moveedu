@@ -1,0 +1,11 @@
+/
+Link:</css/bootstrap.min.css>; rel=preload; as=style
+Link:</css/moveedu.min.css>; rel=preload; as=style
+Link:</img/logos/img-trans.svg>; rel=preload; as=image
+Link:</img/logos/logo-facebook.svg>; rel=preload; as=image
+Link:</img/logos/logo-insta.svg>; rel=preload; as=image
+Link:</img/logos/logo-marcas.svg>; rel=preload; as=image
+Link:</img/logos/logo-moveedu.svg>; rel=preload; as=image
+Link:</img/logos/logo-selo-dados.svg>; rel=preload; as=image
+Link:</img/logos/selo-premio.png>; rel=preload; as=image
+
