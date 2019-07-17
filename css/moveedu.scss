@@ -47,7 +47,7 @@ body {
 
 .titulo-formulario {
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	color: $ensina-color-4;
 	line-height: 2rem;
 }
@@ -112,7 +112,7 @@ body {
 	font-weight: 700;
 	text-align: center;
 	position: absolute;
-	bottom: 0px;
+	bottom: 30px;
 	font-size: 2.3rem;
 	line-height: 3rem;
 	color: #fff;
@@ -194,7 +194,7 @@ body {
 
 .titulo-monica-cebolinha-jovem{
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	color: $ensina-color-4;
 	line-height: 15rem;
 }
@@ -336,6 +336,7 @@ body {
 }
 
 .footer-ensina{
+	margin-top: 30px;
 	height: 150px;
 	border-top: 1px solid $ensina-color-3;
 }
@@ -398,6 +399,10 @@ body {
 	.citacao-ensina-mais:before{
 		top: 50px;
 	}
+
+	.icone-social{
+		margin-right: 5px;
+	}
 }
 
 
@@ -437,13 +442,45 @@ body {
 		position: static;
 	}
 
-
 	.-aluno{
-		width: 300px;
+		width: 90vw;
+	}
+
+	.conteudo-metodologia{
+		font-size: 1.2rem;
+	}
+
+	.citacao-ensina-mais{
+		margin-top: 20%;
+	}
+
+	.citacao-ensina-mais:after{
+		bottom: 10px;
+	}
+
+	.img-depoimento{
+		width: 200px;
+		margin-bottom: 15px;
+	}
+
+	.logo-ensina-rodape{
+		width: 200px;
+	}
+
+	.logo-moveedu{
+		width: 200px;
+	}
+
+	.assinatura-mauricio{
+		width: 200px;
+	}
+
+	.icone-social{
+		float: none;
+		margin-bottom: 30px;
 	}
 
 }
-
 
 @media (max-width: 530px) {
 	.titulo-monica-cebolinha{
@@ -461,7 +498,6 @@ body {
 }
 
 
-
 @media (max-width: 425px) {
 	.nav-item {
 		margin-bottom: 10px;
@@ -474,7 +510,7 @@ body {
 	}
 
 	.titulo-formulario {
-		font-size: 1.1rem;
+		font-size: 1.3rem;
 		line-height: 1.5rem;
 	}
 
@@ -501,7 +537,7 @@ body {
 	}
 
 	.citacao-ensina-mais:after{
-		bottom: 10px;
+		bottom: -30px;
 	}
 
 	.titulo-metodologia{
@@ -510,40 +546,13 @@ body {
 		line-height: 3rem;
 	}
 	
-	.conteudo-metodologia{
-		font-size: 1rem;
-	}
-
 	.titulo-depoimento{
 		font-size: 1.75rem;
 		line-height: 6rem;
 		
 	}
 
-	.img-depoimento{
-		width: 200px;
-		margin-bottom: 15px;
-	}
-
-	.logo-ensina-rodape{
-		width: 200px;
-	}
-
-	.logo-moveedu{
-		width: 200px;
-	}
-
-	.assinatura-mauricio{
-		width: 200px;
-	}
-
-	.icone-social{
-		float: none;
-		margin-bottom: 30px;
-	}
 }
-
-
 
 
 @media (max-width: 320px) {
@@ -565,5 +574,9 @@ body {
 	.titulo-formulario {
 		font-size: 1rem;
 		line-height: 1.5rem;
+	}
+
+	.conteudo-metodologia{
+		font-size: 1.2rem;
 	}
 }
