@@ -415,9 +415,15 @@ body {
 	background-color: $white;
 }
 
+
+.carousel-indicators{
+	bottom:-30px;
+}
+
 .carousel-indicators > li{
 	background-color: $ensina-color-1;
 }
+
 
 
 .footer-ensina{
@@ -646,10 +652,6 @@ body {
 		font-size: 1.75rem;
 		line-height: 6rem;
 		
-	}
-
-	.carousel-indicators{
-		bottom:-30px;
 	}
 }
 
