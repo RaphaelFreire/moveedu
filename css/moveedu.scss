@@ -165,11 +165,12 @@ body {
 
 
 .card-body-ensina{
-	width: 245px;
+	width: 280px;
+	height: 280px;
+	padding: 50px 30px;
 	color: #fff;	
 	background-color: $ensina-color-5;
 	border: 1px solid $ensina-color-5;
-	padding: 25px;
 	border-radius: 100%;
 }
 
@@ -221,14 +222,15 @@ body {
 }
 
 .citacao-ensina-mais{
-	margin-top: 30%;
+	font-size: 1.1rem;
+	margin-top: 20%;
 	color: $ensina-color-6;
 }
 
 .citacao-ensina-mais:before{
 	content: " ";
 	position: absolute;
-	top: 80px;
+	top: 50px;
 	left: 0;
 	width: 100px;
 	height: 25px;
@@ -239,7 +241,7 @@ body {
 .citacao-ensina-mais:after{
 	content: " ";
 	position: absolute;
-	bottom: 110px;
+	bottom: 75px;
 	right: 0;
 	width: 100px;
 	height: 30px;
@@ -255,6 +257,27 @@ body {
 	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
 }
 
+.metodologia{
+	padding: 10px;
+	margin-top: 0px;
+}
+
+.-ava{
+	background-color: $ensina-color-13;
+}
+
+.-des{
+	background-color: $ensina-color-14;
+}
+
+.-pla{
+	background-color: $ensina-color-15;
+}
+
+.-rea{
+	background-color: $ensina-color-16;	
+}
+
 .icones-inf{
 	width: 100px;
     height: 100px;
@@ -263,19 +286,23 @@ body {
 }
 
 .-avaliacao{
-	background-position-y: 425px; 
+	background-position-y: 425px;
+	
 }
 
 .-desenvolvimento{
-	background-position-y: 312px; 
+	background-position-y: 312px;
+	 
 }
 
 .-plano{
-	background-position-y: 207px; 
+	background-position-y: 207px;
+	  
 }
 
 .-realizacao{
-	background-position-y: 104px; 
+	background-position-y: 104px;
+ 
 }
 
 .background-metodologia{
@@ -290,14 +317,72 @@ body {
 	text-align: center;
 	font-size: 2.5rem;
 	color: $ensina-color-4;
-	line-height: 12rem;
+	line-height: 5rem;
 	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
 }
 
 .conteudo-metodologia{
-	font-size: 1.7rem;
+	font-size: 1.1rem;
 	color: $ensina-color-1;
 }
+
+.titulo-monica-cebolinha-jovem{
+	text-align: center;
+	font-size: 1.5rem;
+	color: $ensina-color-4;
+	line-height: 10rem;
+	margin-bottom: 0px;
+}
+
+
+.img-monica-cascao{
+	width: 400px;
+	margin-top: 50px;
+}
+
+
+.icones-recursos{
+	width: 100px;
+    height: 100px;
+    background-image: url(../img/logos/icones-recursos.svg);
+    background-size: cover;
+}
+
+.-acompanhamento{
+	background-position-y:639px; 
+}
+
+.-games{
+	background-position-y:532px;
+}
+
+.-plataforma{
+	background-position-y:328px;
+}
+
+.-aulas{
+	background-position-y:207px;
+}
+
+.-material{
+	background-position-y:417px;
+}
+
+.-portal{
+	background-position-y:111px;
+}
+
+
+
+.conteudo-recursos-metodologia{
+	font-size: 1.2rem;
+}
+
+
+
 
 .img-depoimento{
 	display: block;
@@ -328,6 +413,10 @@ body {
 	bottom: -23px;
 	color: $ensina-color-12;
 	background-color: $white;
+}
+
+.carousel-indicators > li{
+	background-color: $ensina-color-1;
 }
 
 .footer-ensina{
@@ -427,10 +516,10 @@ body {
 		width: 475px;
 	}
 
-	.card-body-ensina{
-		width: 215px;
-		padding: 10px;
-	}
+	// .card-body-ensina{
+	// 	width: 215px;
+	// 	padding: 10px;
+	// }
 
 	.img-monica-cebolinha-jovem{
 		width: 80%;
@@ -491,6 +580,16 @@ body {
 	.card-form{
 		width: 360px;
 	}
+
+	.conteudo-recursos-metodologia{
+		font-size: 0.9rem;
+	}
+
+	.img-monica-cascao{
+		margin-top: 0px;
+		margin-bottom: 35px;
+	}
+	
 }
 
 
@@ -573,6 +672,6 @@ body {
 	}
 
 	.conteudo-metodologia{
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 }
