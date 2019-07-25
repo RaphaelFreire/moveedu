@@ -257,25 +257,99 @@ body {
 	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
 }
 
+.titulo-metodologia{
+	text-align: center;
+	font-size: 2.5rem;
+	color: $ensina-color-4;
+	line-height: 5rem;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.titulo-avaliacao{
+	text-align: center;
+	font-size: 2.5rem;
+	color: $ensina-color-4;
+	line-height: 3rem;
+	font-weight: 700;
+	margin-top: 30px
+}
+
+
+.titulo-avaliacao-sub{
+	line-height: 2rem;
+	margin-bottom: 30px
+}
+
+
 .metodologia{
 	padding: 10px;
 	margin-top: 0px;
+	// border: 1px solid black;
+}
+
+.conteudo-metodologia-subtitulo{
+	font-size: 4rem;
+	text-align: center;
+	font-weight: 700;
+	color: $ensina-color-5;
+}
+
+
+.conteudo-metodologia{
+	font-size: 1rem;
+	color: $ensina-color-1;
 }
 
 .-ava{
-	background-color: $ensina-color-13;
+	// border-left: 1px solid black;
+	text-align: center;
+}
+
+.-ava:after{
+	content: " ";
+	position: absolute;
+	top: 0px;
+	right: -10px;
+	width: 25px;
+	height: 250px;
+	background-image: url(../img/logos/detalhe-depoimento-01.svg);
 }
 
 .-des{
-	background-color: $ensina-color-14;
+	// background-color: $ensina-color-14;
+	text-align: center;
+}
+
+.-des:after{
+	content: " ";
+	position: absolute;
+	top: 0px;
+	right: -10px;
+	width: 25px;
+	height: 250px;
+	background-image: url(../img/logos/detalhe-depoimento-01.svg);
 }
 
 .-pla{
-	background-color: $ensina-color-15;
+	// background-color: $ensina-color-15;
+	text-align: center;
+}
+
+.-pla:after{
+	content: " ";
+	position: absolute;
+	top: 0px;
+	right: -10px;
+	width: 25px;
+	height: 250px;
+	background-image: url(../img/logos/detalhe-depoimento-01.svg);
 }
 
 .-rea{
-	background-color: $ensina-color-16;	
+	// border-right: 1px solid black;
+	text-align: center;	
 }
 
 .icones-inf{
@@ -296,7 +370,7 @@ body {
 }
 
 .-plano{
-	background-position-y: 207px;
+	background-position-y: 181px;
 	  
 }
 
@@ -313,21 +387,6 @@ body {
 	background-color: $ensina-color-10;
 }
 
-.titulo-metodologia{
-	text-align: center;
-	font-size: 2.5rem;
-	color: $ensina-color-4;
-	line-height: 5rem;
-	font-weight: 700;
-	margin-top: 30px;
-	margin-bottom: 30px;
-
-}
-
-.conteudo-metodologia{
-	font-size: 1.1rem;
-	color: $ensina-color-1;
-}
 
 .titulo-monica-cebolinha-jovem{
 	text-align: center;
@@ -336,6 +395,10 @@ body {
 	line-height: 10rem;
 	margin-bottom: 0px;
 }
+
+
+
+
 
 
 .img-monica-cascao{
@@ -396,7 +459,7 @@ body {
 	text-align: center;
 	font-size: 2.5rem;
 	color: $ensina-color-4;
-	line-height: 12rem;
+	line-height: 8rem;
 	font-weight: 700;
 }
 
@@ -445,6 +508,17 @@ body {
 }
 
 
+.avaliacao-estilo1{
+	color: $ensina-color-6;
+}
+
+.avaliacao-estilo2{
+	color: $ensina-color-17;
+}
+
+.avaliacao-estilo3{
+	color: $ensina-color-18;
+}
 
 
 @media (max-width: 1440px) {
@@ -494,6 +568,10 @@ body {
 
 	.icone-social{
 		margin-right: 5px;
+	}
+
+	.-des:after{
+		display: none;
 	}
 }
 
@@ -570,6 +648,14 @@ body {
 	.icone-social{
 		float: none;
 		margin-bottom: 30px;
+	}
+
+	.-ava:after{
+		display: none;
+	}
+
+	.-pla:after{
+		display: none;
 	}
 
 }
@@ -653,7 +739,59 @@ body {
 		line-height: 6rem;
 		
 	}
+
+	.-ava:after{
+		display: block;
+		content: " ";
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+		width: 25px;
+		height: 250px;
+		transform: translateX(200px) translateY(125px) rotate(90deg);
+		background-image: url(../img/logos/detalhe-depoimento-01.svg);
+	}
+
+	.-pla:after{
+		display: block;
+		content: " ";
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+		width: 25px;
+		height: 250px;
+		transform: translateX(200px) translateY(155px) rotate(90deg);
+		background-image: url(../img/logos/detalhe-depoimento-01.svg);
+	}
+
+	.-des:after{
+		display: block;
+		content: " ";
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+		width: 25px;
+		height: 250px;
+		transform: translateX(200px) translateY(155px) rotate(90deg);
+		background-image: url(../img/logos/detalhe-depoimento-01.svg);
+	}
+
 }
+
+@media (max-width: 375px) {
+	.-ava:after{
+		transform: translateX(175px) translateY(125px) rotate(90deg);
+	}
+
+	.-pla:after{
+		transform: translateX(175px) translateY(160px) rotate(90deg);
+	}
+
+	.-des:after{
+		transform: translateX(175px) translateY(160px) rotate(90deg);
+	}
+}
+
 
 
 @media (max-width: 320px) {
@@ -679,5 +817,17 @@ body {
 
 	.conteudo-metodologia{
 		font-size: 1rem;
+	}
+
+	.-ava:after{
+		transform: translateX(150px) translateY(125px) rotate(90deg);
+	}
+
+	.-pla:after{
+		transform: translateX(150px) translateY(160px) rotate(90deg);
+	}
+
+	.-des:after{
+		transform: translateX(150px) translateY(160px) rotate(90deg);
 	}
 }
