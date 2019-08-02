@@ -91,7 +91,7 @@ body {
 .banner-principal {
 	position: relative;
 	background-color: $ensina-color-7;
-	background-image: url("../img/move-edu/banner-principal.png");
+	background-image: url("../img/banner-principal.png");
 	background-repeat: no-repeat;
 	background-position: left 30% center;
 	height: 600px;
@@ -198,7 +198,7 @@ body {
 .icones-sup{
 	width: 100px;
     height: 100px;
-    background-image: url(../img/logos/icones-sup.svg);
+    background-image: url(../img/icones-sup.svg);
     background-size: cover;
 }
 
@@ -234,7 +234,7 @@ body {
 	left: 0;
 	width: 100px;
 	height: 25px;
-	background-image: url(../img/move-edu/detalhe-onda.svg);
+	background-image: url(../img/detalhe-onda.svg);
 	background-position-y: 200px;
 }
 
@@ -245,7 +245,7 @@ body {
 	right: 0;
 	width: 100px;
 	height: 30px;
-	background-image: url(../img/move-edu/detalhe-onda.svg);
+	background-image: url(../img/detalhe-onda.svg);
 	background-position-y: 300px;
 }
 
@@ -312,7 +312,7 @@ body {
 	right: -10px;
 	width: 25px;
 	height: 250px;
-	background-image: url(../img/logos/detalhe-depoimento-01.svg);
+	background-image: url(../img/detalhe-depoimento-01.svg);
 }
 
 .-des{
@@ -326,7 +326,7 @@ body {
 	right: -10px;
 	width: 25px;
 	height: 250px;
-	background-image: url(../img/logos/detalhe-depoimento-01.svg);
+	background-image: url(../img/detalhe-depoimento-01.svg);
 }
 
 .-pla{
@@ -340,7 +340,7 @@ body {
 	right: -10px;
 	width: 25px;
 	height: 250px;
-	background-image: url(../img/logos/detalhe-depoimento-01.svg);
+	background-image: url(../img/detalhe-depoimento-01.svg);
 }
 
 .-rea{
@@ -350,7 +350,7 @@ body {
 .icones-inf{
 	width: 100px;
     height: 100px;
-    background-image: url(../img/logos/icones-inf.svg);
+    background-image: url(../img/icones-inf.svg);
     background-size: cover;
 }
 
@@ -401,7 +401,7 @@ body {
 .icones-recursos{
 	width: 100px;
     height: 100px;
-    background-image: url(../img/logos/icones-recursos.svg);
+    background-image: url(../img/icones-recursos.svg);
     background-size: cover;
 }
 
@@ -724,7 +724,7 @@ body {
 		width: 25px;
 		height: 250px;
 		transform: translateX(200px) translateY(125px) rotate(90deg);
-		background-image: url(../img/logos/detalhe-depoimento-01.svg);
+		background-image: url(../img/detalhe-depoimento-01.svg);
 	}
 
 	.-pla:after{
@@ -736,7 +736,7 @@ body {
 		width: 25px;
 		height: 250px;
 		transform: translateX(200px) translateY(155px) rotate(90deg);
-		background-image: url(../img/logos/detalhe-depoimento-01.svg);
+		background-image: url(../img/detalhe-depoimento-01.svg);
 	}
 
 	.-des:after{
@@ -748,7 +748,7 @@ body {
 		width: 25px;
 		height: 250px;
 		transform: translateX(200px) translateY(155px) rotate(90deg);
-		background-image: url(../img/logos/detalhe-depoimento-01.svg);
+		background-image: url(../img/detalhe-depoimento-01.svg);
 	}
 
 }
