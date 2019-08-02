@@ -79,13 +79,13 @@ body {
 .btn-enviar{
 	font-weight: 700;
 	text-transform: uppercase;
-	background-color: $ensina-color-5; 
+	background-color: $ensina-color-4; 
 	border: none;
 	border-radius: 20px;
 }
 
 .btn-enviar:hover{
-	background-color: $ensina-color-4;
+	background-color: $ensina-color-5;
 }
 
 .banner-principal {
@@ -286,7 +286,6 @@ body {
 .metodologia{
 	padding: 10px;
 	margin-top: 0px;
-	// border: 1px solid black;
 }
 
 .conteudo-metodologia-subtitulo{
@@ -303,7 +302,6 @@ body {
 }
 
 .-ava{
-	// border-left: 1px solid black;
 	text-align: center;
 }
 
@@ -318,7 +316,6 @@ body {
 }
 
 .-des{
-	// background-color: $ensina-color-14;
 	text-align: center;
 }
 
@@ -333,7 +330,6 @@ body {
 }
 
 .-pla{
-	// background-color: $ensina-color-15;
 	text-align: center;
 }
 
@@ -348,7 +344,6 @@ body {
 }
 
 .-rea{
-	// border-right: 1px solid black;
 	text-align: center;	
 }
 
@@ -397,10 +392,6 @@ body {
 }
 
 
-
-
-
-
 .img-monica-cascao{
 	width: 400px;
 	margin-top: 50px;
@@ -438,13 +429,9 @@ body {
 	background-position-y:111px;
 }
 
-
-
 .conteudo-recursos-metodologia{
 	font-size: 1.2rem;
 }
-
-
 
 
 .img-depoimento{
@@ -486,8 +473,6 @@ body {
 .carousel-indicators > li{
 	background-color: $ensina-color-1;
 }
-
-
 
 .footer-ensina{
 	margin-top: 30px;
@@ -576,11 +561,6 @@ body {
 }
 
 
-
-
-
-
-
 @media (max-width: 767px) {
 	.banner-principal {
 		background-image: none;
@@ -600,11 +580,6 @@ body {
 		top: 30px;
 		width: 475px;
 	}
-
-	// .card-body-ensina{
-	// 	width: 215px;
-	// 	padding: 10px;
-	// }
 
 	.img-monica-cebolinha-jovem{
 		width: 80%;
